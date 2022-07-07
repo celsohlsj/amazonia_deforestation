@@ -2,7 +2,7 @@
 ![licence](https://img.shields.io/badge/Licence-GPL--3-blue.svg)
 ![Github](https://img.shields.io/badge/Github-1.0.0-green.svg)
 
-# Benchmark maps of 33 years of secondary forest age for Brazil
+# Benchmark maps of deforestation for Amazonia
 
 ## Background:
 The restoration and reforestation of 12 million hectares of forests by 2030 are amongst the leading mitigation strategies for reducing carbon emissions within the Brazilian Nationally Determined Contribution targets assumed under the Paris Agreement. Understanding the dynamics of forest cover, which steeply decreased between 1985 and 2018 throughout Brazil, is essential for estimating the global carbon balance and quantifying the provision of ecosystem services. To know the long-term increment, extent, and age of secondary forests is crucial; however, these variables are yet poorly quantified. Here we developed a 30-m spatial resolution dataset of the annual increment, extent, and age of secondary forests for Brazil over the 1986–2018 period. Land-use and land-cover maps from MapBiomas Project were used as input data for our algorithm, implemented in the Google Earth Engine platform. This dataset provides critical spatially explicit information for supporting carbon emissions reduction, biodiversity, and restoration policies, enabling environmental science applications, territorial planning, and subsidizing environmental law enforcement.
