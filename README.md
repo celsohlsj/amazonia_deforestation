@@ -13,7 +13,7 @@ The restoration and reforestation of 12 million hectares of forests by 2030 are 
 
 ## Associated Publications:
 #### The map was used in the following manuscript:
-Silva Junior, C.H.L., Heinrich, V.H.A., Freire, A.T.G., Broggio, I.S., Rosan, T.M., Doblas, J., Anderson, L.O., Rousseau, G.X., Shimabukuro, Y.E., Silva, C.A., House, J.I., Aragão, L.E.O.C. Amazon fires in the 21st century: the year of 2020 in evidence . Scientific Data (2022). https://doi.org/
+Silveira, M.V. F., Silva-Junior, C.H.L., Anderson, L.O., Aragão, L.E.O.C. Amazon fires in the 21st century: the year of 2020 in evidence. Global Ecology and Biogeography (2022). https://doi.org/XXXXXXXXXXXXXXXXXX
 
 ## Dataset access
 #### Tiles structure of the dataset:
