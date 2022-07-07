@@ -1,17 +1,19 @@
-[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.3928660.svg)](http://dx.doi.org/10.5281/zenodo.3928660)
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.6808579.svg)](http://dx.doi.org/10.5281/zenodo.6808579)
 ![licence](https://img.shields.io/badge/Licence-GPL--3-blue.svg)
 ![Github](https://img.shields.io/badge/Github-1.0.0-green.svg)
 
 # Benchmark maps of deforestation for Amazonia
 
 ## Background:
+
+We also created a class referred to as “deforestation in the year” to represent all areas classified as farming, urban infrastructure, or mining each year that in the previous year were classified as old-growth forests. That is, forest areas that were cleared and converted to another anthropic use. This rationale was used to compute the deforestation time series from 2003 to 2020 (deforestation data available at: https://github.com/celsohlsj/gee_brazil_sv). This procedure supported the generation of consistent information for all Amazon regions, though it is subject to inaccuracies derived from misclassifications in MapBiomas' product. As a result, some of the pixels in our deforestation data can be representing forest loss from other processes such as selective-logging, forest fires and blow-downs, which could be classified into farming though they are usually followed by forest regeneration. Nonetheless, a series of post-classification temporal and spatial filters are used in MapBiomas’ product to reduce incorrect class transitions (MapBiomas, 2021). In the Appendix Table S1.1 of Supporting Information, we compared annual deforestation estimates from our MapBiomas’ approach with estimates from official governmental approaches to deforestation monitoring for some Amazonian countries. Colombian and Brazilian official yearly estimates were respectively about 14% and 45% smaller on average, while Peruvian official yearly estimates were about 46% greater on average. Dissimilarities are expected in light of the different methodologies applied in each official governmental approach. 
+
+
 The restoration and reforestation of 12 million hectares of forests by 2030 are amongst the leading mitigation strategies for reducing carbon emissions within the Brazilian Nationally Determined Contribution targets assumed under the Paris Agreement. Understanding the dynamics of forest cover, which steeply decreased between 1985 and 2018 throughout Brazil, is essential for estimating the global carbon balance and quantifying the provision of ecosystem services. To know the long-term increment, extent, and age of secondary forests is crucial; however, these variables are yet poorly quantified. Here we developed a 30-m spatial resolution dataset of the annual increment, extent, and age of secondary forests for Brazil over the 1986–2018 period. Land-use and land-cover maps from MapBiomas Project were used as input data for our algorithm, implemented in the Google Earth Engine platform. This dataset provides critical spatially explicit information for supporting carbon emissions reduction, biodiversity, and restoration policies, enabling environmental science applications, territorial planning, and subsidizing environmental law enforcement.
 
-<img src="https://drive.google.com/uc?export=view&id=14V3whfA9IqoZIvs4SbOjiYszlNK8GVvZ" width="475">
-
 ## Associated Publications:
-#### The maps are described in the following manuscript:
-Silva Junior, C.H.L., Heinrich, V.H.A., Freire, A.T.G., Broggio, I.S., Rosan, T.M., Doblas, J., Anderson, L.O., Rousseau, G.X., Shimabukuro, Y.E., Silva, C.A., House, J.I., Aragão, L.E.O.C. Benchmark maps of 33 years of secondary forest age for Brazil. Scientific Data (2020). https://doi.org/10.1038/s41597-020-00600-4
+#### The map was used in the following manuscript:
+Silva Junior, C.H.L., Heinrich, V.H.A., Freire, A.T.G., Broggio, I.S., Rosan, T.M., Doblas, J., Anderson, L.O., Rousseau, G.X., Shimabukuro, Y.E., Silva, C.A., House, J.I., Aragão, L.E.O.C. Amazon fires in the 21st century: the year of 2020 in evidence . Scientific Data (2022). https://doi.org/
 
 ## Dataset access
 #### Tiles structure of the dataset:
