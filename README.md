@@ -6,13 +6,16 @@
 
 This dataset represents the mapping of deforestation (old-growth forest only) for Amazonia between 1986 and 2020 based on MapBiomas (https://amazonia.mapbiomas.org/en) land-use and land-cover maps. Below is some important information.
 - Here we define deforestation as the replacement of a forest formation pixel with an anthropic pixel (e.g., farming, agriculture, urban, or mining) each year. 
-- We consider only the forest formation class (ID = 3) from the MapBiomas dataset;
+- We consider only the forest formation class (ID=3) from the MapBiomas dataset;
 - We adopted 1985 as the baseline for the initial area of the old-growth forest;
 - Once cleared, a forest pixel remains cleared; for mapping the dynamics of secondary forests, access: https://github.com/celsohlsj/gee_brazil_sv.
 
 ## Associated Publications:
 #### The map was used in the following manuscript:
 Silveira, M.V. F., Silva-Junior, C.H.L., Anderson, L.O., Aragão, L.E.O.C. Amazon fires in the 21st century: the year of 2020 in evidence. Global Ecology and Biogeography (2022). https://doi.org/XXXXXXXXXXXXXXXXXX
+
+#### For script and dataset, please use the following reference:
+Silveira, M.V. F., Silva-Junior, C.H.L., Anderson, L.O., Aragão, L.E.O.C. Amazon fires in the 21st century: the year of 2020 in evidence. Global Ecology and Biogeography (2022). doi: XXXXXXXXXXXXXXXXXX
 
 ## Dataset access
 #### The final data layers (v1; 1986-2020 period) based on MapBiomas Amazonia Collection 3 can be accessed from the Zenodo repository: https://zenodo.org/record/6808579
