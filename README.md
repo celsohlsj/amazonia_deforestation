@@ -10,13 +10,6 @@ This dataset represents the mapping of deforestation (old-growth forest only) fo
 - We adopted 1985 as the baseline for the initial area of the old-growth forest;
 - Once cleared, a forest pixel remains cleared; for mapping the dynamics of secondary forests, access: https://github.com/celsohlsj/gee_brazil_sv.
 
-## Associated Publications:
-#### The map was used in the following manuscript:
-Silveira, M.V. F., Silva-Junior, C.H.L., Anderson, L.O., Aragão, L.E.O.C. Amazon fires in the 21st century: the year of 2020 in evidence. Global Ecology and Biogeography (2022). https://doi.org/XXXXXXXXXXXXXXXXXX
-
-#### For script and dataset, please use the following reference:
-Silveira, M.V. F., Silva-Junior, C.H.L., Anderson, L.O., Aragão, L.E.O.C. Amazon fires in the 21st century: the year of 2020 in evidence. Global Ecology and Biogeography (2022). doi: XXXXXXXXXXXXXXXXXX
-
 ## Dataset access
 #### The final data layers (v1; 1986-2020 period) based on MapBiomas Amazonia Collection 3 can be accessed from the Zenodo repository: https://zenodo.org/record/6808579
 
@@ -25,3 +18,10 @@ Silveira, M.V. F., Silva-Junior, C.H.L., Anderson, L.O., Aragão, L.E.O.C. Amazo
 ID: users/celsohlsj/public/amazonia_deforestation_1986_2020_collection3_v1<br />
 ###### Data asset Brazil v1 (MapBiomas Collection 6) [1986-2020]
 ID: users/celsohlsj/public/brazil_deforestation_1986_2020_collection6_v1<br />
+
+## Associated Publications:
+#### The map was used in the following manuscript:
+Silveira, M.V. F., Silva-Junior, C.H.L., Anderson, L.O., Aragão, L.E.O.C. Amazon fires in the 21st century: the year of 2020 in evidence. Global Ecology and Biogeography (2022). https://doi.org/XXXXXXXXXXXXXXXXXX
+
+#### For script and dataset, please use the following reference:
+Silveira, M.V. F., Silva-Junior, C.H.L., Anderson, L.O., Aragão, L.E.O.C. Amazon fires in the 21st century: the year of 2020 in evidence. Global Ecology and Biogeography (2022). doi: XXXXXXXXXXXXXXXXXX
