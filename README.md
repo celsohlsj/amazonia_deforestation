@@ -5,10 +5,11 @@
 # Benchmark maps of deforestation for Amazonia
 
 This dataset represents the mapping of deforestation (old-growth forest only) for Amazonia between 1986 and 2020 based on MapBiomas (https://amazonia.mapbiomas.org/en) land-use and land-cover maps. Below is some important information.
-- Here we define deforestation as the replacement of a forest formation pixel with an anthropic pixel (e.g., farming, agriculture, urban, or mining) each year. 
+- Here we define deforestation as the replacement of a forest formation pixel with an anthropic pixel (e.g., farming, agriculture, urban, or mining) each year;
 - We consider only the forest formation class (ID=3) from the MapBiomas dataset;
 - We adopted 1985 as the baseline for the initial area of the old-growth forest;
-- Once cleared, a forest pixel remains cleared; for mapping the dynamics of secondary forests, access: https://github.com/celsohlsj/gee_brazil_sv.
+- Once cleared, a forest pixel remains cleared; for mapping the dynamics of secondary forests, access: https://github.com/celsohlsj/gee_brazil_sv;
+- The dataset is free to use, but if you use it in your work, please cite the zenodo repository and our paper correctly. We also welcome users to invite us for collaboration.
 
 ## Dataset access
 #### The final data layers (v1; 1986-2020 period) based on MapBiomas Amazonia Collection 3 can be accessed from the Zenodo repository: https://zenodo.org/record/6808579
@@ -23,5 +24,6 @@ ID: users/celsohlsj/public/brazil_deforestation_1986_2020_collection6_v1<br />
 #### The map was used in the following manuscript:
 Silveira, M.V. F., Silva-Junior, C.H.L., Anderson, L.O., Aragão, L.E.O.C. Amazon fires in the 21st century: the year of 2020 in evidence. Global Ecology and Biogeography (2022). https://doi.org/XXXXXXXXXXXXXXXXXX
 
-#### For script and dataset, please use the following reference:
-Silveira, M.V. F., Silva-Junior, C.H.L., Anderson, L.O., Aragão, L.E.O.C. Amazon fires in the 21st century: the year of 2020 in evidence. Global Ecology and Biogeography (2022). doi: XXXXXXXXXXXXXXXXXX
+#### For script and dataset, please cite the following reference:
+- Silveira, M.V. F., et al. Amazon fires in the 21st century: the year of 2020 in evidence. Global Ecology and Biogeography (2022). doi: XXXXXXXXXXXXX
+- Silva-Junior, C. H. L. . (2022). Benchmark maps of deforestation for Amazonia [Data set]. Zenodo. https://doi.org/10.5281/zenodo.6808579
