@@ -22,8 +22,8 @@ ID: users/celsohlsj/public/brazil_deforestation_1986_2020_collection6_v1<br />
 
 ## Associated Publications:
 #### The map was used in the following manuscript:
-Silveira, M.V. F., Silva-Junior, C.H.L., Anderson, L.O., Aragão, L.E.O.C. Amazon fires in the 21st century: the year of 2020 in evidence. Global Ecology and Biogeography (2022). https://doi.org/XXXXXXXXXXXXXXXXXX
+Silveira, M.V. F., Silva-Junior, C.H.L., Anderson, L.O., Aragão, L.E.O.C. Amazon fires in the 21st century: the year of 2020 in evidence. Global Ecology and Biogeography (2022). https://doi.org/10.1111/geb.13577
 
 #### If you use the script and/or dataset, please cite the following references:
-- Silveira, M.V. F., et al. Amazon fires in the 21st century: the year of 2020 in evidence. Global Ecology and Biogeography (2022). doi: XXXXXXXXXXXXX
+- Silveira, M.V. F., et al. Amazon fires in the 21st century: the year of 2020 in evidence. Global Ecology and Biogeography (2022). doi: 10.1111/geb.13577
 - Silva-Junior, C. H. L. . (2022). Benchmark maps of deforestation for Amazonia [Data set]. Zenodo. https://doi.org/10.5281/zenodo.6808579
