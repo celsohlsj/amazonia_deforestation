@@ -2,7 +2,7 @@
 ![licence](https://img.shields.io/badge/Licence-GPL--3-blue.svg)
 ![Github](https://img.shields.io/badge/Github-1.0.0-green.svg)
 
-# Benchmark maps of deforestation for Amazonia
+# Benchmark map of deforestation for Amazonia
 
 This dataset represents the mapping of deforestation (old-growth forest only) for Amazonia between 1986 and 2020 based on MapBiomas (https://amazonia.mapbiomas.org/en) land-use and land-cover maps. Below is some important information.
 - Here we define deforestation as the replacement of a forest formation pixel with an anthropic pixel (e.g., farming, agriculture, urban, or mining) each year;
