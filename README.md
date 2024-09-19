@@ -16,7 +16,7 @@ This dataset represents the mapping of deforestation (old-growth forest only) fo
 
 #### Access to data asset in Google Earth Engine:
 ###### Data asset Brazil v2 (MapBiomas Collection 9) [1986-2023]
-ID: users/celsohlsj/public/brazil_deforestation_vegetation_loss_1986_2023_collection9_v2<br />
+ID: users/celsohlsj/public/brazil_deforestation_vegetation_1986_2023_collection9_v2<br />
 ###### Data asset Amazonia v1 (MapBiomas Collection 3) [1986-2020]
 ID: users/celsohlsj/public/amazonia_deforestation_1986_2020_collection3_v1<br />
 ###### Data asset Brazil v1 (MapBiomas Collection 6) [1986-2020]
