@@ -48,11 +48,12 @@ var summedBand = toCollection.sum().toInt16();
 
 Export.image.toAsset({
       image: forest_1985.blend(summedBand.updateMask(summedBand.neq(0))),
-      description: 'public/brazil_deforestation_vegetation_1986_2024_collection9_v3',
+      description: 'public/brazil_deforestation_vegetation_1986_2024_collection10_v3',
       scale: 30, 
       region: brazil.geometry().bounds(),
       maxPixels:1e13
 });
+
 
 
 
