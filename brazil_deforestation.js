@@ -55,8 +55,9 @@ var summedBand = toCollection.sum().toInt16();
 Export.image.toAsset({
       image: forest_1985.blend(summedBand.updateMask(summedBand.neq(0))),
       description: 'brazil_deforestation_vegetation_1986_' + lastYear + '_' + mapbiomasCollection + '_' + mappingVersion,
-      assetId: assetFolder + '/brazil_deforestation_vegetation_1986_' + lastYear + '_' + mapbiomasCollection + '_' + mappingVersion,
+      assetId: assetFolder + '/brazil_deforestation_forests_1986_' + lastYear + '_' + mapbiomasCollection + '_' + mappingVersion,
       scale: 30, 
       region: brazil.geometry().bounds(),
       maxPixels:1e13
 });
+
