@@ -2,7 +2,7 @@
 var brazil = ee.FeatureCollection("users/celsohlsj/brazil");
 
 //MapBiomas Brazil Collection 10
-var mapbiomas = ee.Image('projects/mapbiomas-public/assets/brazil/lulc/collection9/mapbiomas_collection90_integration_v1'); 
+var mapbiomas = ee.Image('projects/mapbiomas-public/assets/brazil/lulc/collection10/mapbiomas_brazil_collection10_coverage_v2'); 
 
 // Forest Cover in 1985
 var forest_1985 = mapbiomas.select('classification_1985').remap([3,6], [1,1], 0); // Only Forest Formation
@@ -53,4 +53,5 @@ Export.image.toAsset({
       region: brazil.geometry().bounds(),
       maxPixels:1e13
 });
+
 
