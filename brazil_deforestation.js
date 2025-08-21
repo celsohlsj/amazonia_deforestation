@@ -9,13 +9,13 @@ var forest_1985 = mapbiomas.select('classification_1985').remap([3,6], [1,1], 0)
 //var forest_1985 = mapbiomas.select('classification_1985').remap([3,6,49,11,12,32,50], [1,1,1,1,1,1,1,1,1], 0);
 
 var empty = ee.Image().byte();
-for (var i=0; i<38; i++)  { // 1986 to 2023
+for (var i=0; i<39; i++)  { // 1986 to 2024
     // https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2024/08/Legenda-Colecao-9-LEGEND-CODE.pdf
     // The anthropic mask is generated from the year 1986
     var y = 1986+i;
     var year = 'classification_'+y;
     var oldvalues = ee.List([15, 19, 39, 20, 40, 62, 41, 46, 47, 35, 48, 9, 21, 24, 30]);
-    var newvalues = ee.List([2,2,2,2,2,2,2,2,2,2,2,2,2,2,2]);
+    var newvalues = ee.List([2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]);
     var anthropic = mapbiomas.select(year).remap(oldvalues, newvalues, 0);
     
 	// Here we combine forest map (year_i) with athropic mask map (year_i+1) to mapping deforestation
@@ -53,5 +53,6 @@ Export.image.toAsset({
       region: brazil.geometry().bounds(),
       maxPixels:1e13
 });
+
 
 
