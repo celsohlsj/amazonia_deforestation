@@ -1,3 +1,9 @@
+// Configuration Variables
+var mapbiomasCollection = 'collection10';  // MapBiomas data collection version
+var mappingVersion = 'v3';  // Version of the mapping process
+var assetFolder = 'users/celsohlsj/public';  // Destination folder for exported assets
+var lastYear = 2024;  // The last year of the data series
+
 // Auxiliary Dataset
 var brazil = ee.FeatureCollection("users/celsohlsj/brazil");
 
@@ -48,12 +54,9 @@ var summedBand = toCollection.sum().toInt16();
 
 Export.image.toAsset({
       image: forest_1985.blend(summedBand.updateMask(summedBand.neq(0))),
-      description: 'public/brazil_deforestation_vegetation_1986_2024_collection10_v3',
+      description: 'brazil_deforestation_vegetation_1986_' + lastYear + '_' + mapbiomasCollection + '_' + mappingVersion,
+      assetId: assetFolder + '/brazil_deforestation_vegetation_1986_' + lastYear + '_' + mapbiomasCollection + '_' + mappingVersion,
       scale: 30, 
       region: brazil.geometry().bounds(),
       maxPixels:1e13
 });
-
-
-
-
