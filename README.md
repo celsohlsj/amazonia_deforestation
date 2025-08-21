@@ -15,7 +15,7 @@ This dataset represents the mapping of deforestation (old-growth forest only) fo
 #### The final data layers (v1; 1986-2020 period) based on MapBiomas Amazonia Collection 3 can be accessed from the Zenodo repository: https://zenodo.org/record/6808579
 
 #### Access to data asset in Google Earth Engine:
-###### Data asset Brazil v3 (MapBiomas Brazil Collection 10) [1986-2024] (Deforestation in Forest Cover)
+###### Data asset Brazil v3 (MapBiomas Brazil Collection 10) [1986-2024] (Only Forest Formation)
 ID: users/celsohlsj/public/brazil_deforestation_vegetation_1986_2024_collection10_v3<br />
 ###### Data asset Brazil v2 (MapBiomas Brazil Collection 9) [1986-2023]
 ID: users/celsohlsj/public/brazil_deforestation_vegetation_1986_2023_collection9_v2<br />
